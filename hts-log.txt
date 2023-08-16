@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 06 Jun 2023 04:30:52 at https://www.httrack.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.httrack.com/ -O1 "C:\My Web Sites\HTTTrack website copier" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+04:32:32	Error: 	"Not Found" (404) at link https://www.httrack.com/html/fade.gif (from https://www.httrack.com/html/index.html)
+04:32:51	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.httrack.com/src/htsglobal.h.html (from https://www.httrack.com/src/)
+04:33:47	Error: 	"Not Found" (404) at link https://www.httrack.com/src/$(OutDir)/htsjava.pdb (from https://www.httrack.com/src/htsjava.vcproj)
+04:33:47	Error: 	"Not Found" (404) at link https://www.httrack.com/src/Release_avec_debug/httrack.pdb (from https://www.httrack.com/src/httrack.vcproj)
+04:33:47	Error: 	"Not Found" (404) at link https://www.httrack.com/src/Debug/httrack.pdb (from https://www.httrack.com/src/httrack.vcproj)
+04:33:47	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.httrack.com/src/minizip/zip.c (from https://www.httrack.com/src/libhttrack.vcproj)
+04:33:47	Error: 	"Not Found" (404) at link https://www.httrack.com/src/mmsrip/common.h (from https://www.httrack.com/src/libhttrack.vcproj)
+04:33:47	Error: 	"Not Found" (404) at link https://www.httrack.com/src/changelog.txt (from https://www.httrack.com/src/libhttrack.vcproj)
+04:33:58	Error: 	"Not Found" (404) at link https://www.httrack.com/src/Debug/webhttrack.pdb (from https://www.httrack.com/src/webhttrack.vcproj)
+04:33:58	Error: 	"Not Found" (404) at link https://www.httrack.com/src/ReadMe.txt (from https://www.httrack.com/src/webhttrack.vcproj)
+04:34:24	Error: 	"Not Found" (404) at link https://www.httrack.com/src/proxy/$(OutDir)/proxytrack.pdb (from https://www.httrack.com/src/proxy/proxytrack.vcproj)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 33 seconds : 409 links scanned, 396 files written (9392669 bytes overall) [4817280 bytes received at 22616 bytes/sec], 5756875 bytes transferred using HTTP compression in 194 files, ratio 17%, 6.9 requests per connection
+(9 errors, 2 warnings, 0 messages)
